@@ -1,0 +1,152 @@
+.wrapper{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4.3rem 0 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.container{
+    width:800px;
+    height: 500px;
+    background-color: rgb(228, 249, 253);
+    padding: 2rem;
+    border-radius: 5%;
+}
+.react-logo{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.reactBtn{
+  width: 40px;
+  height: 80px;
+  border: none;
+  background-color: #9a3ff5;
+  border-radius: 20px;
+  transition: opacity 0.3s;
+  color: white;
+}
+
+.reactBtn:hover{
+  opacity: 0.8;
+}
+.button-space{
+ width: 20rem; 
+ display: flex;
+
+
+}
+
+.button-space button {
+    width: 100%;
+   
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  }
+  .button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .button:active {
+    background-color: #eb5b5b;
+    border-color: #004080;
+  }
+  @keyframes moveImage {
+    0% {
+      left: 45px; /* Starting position */
+      transform: rotate(0deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotate(360deg);
+      left: 85%; /* Ending position */
+    }
+    
+  }
+
+.img-1{
+    z-index: 1;
+}
+
+.image img {
+  width: 60px;
+  display: block;  
+  left: 40px;
+  position: absolute;
+}
+
+.image.move img{
+   animation: spin 2s ease infinite;
+    left: 85%;
+    
+}
+
+.img-1 img {
+    width: 60px;
+    display: block;  
+    left: 45px;
+    position: absolute;
+  }
+
+  .img-1.move1 img{
+      animation: moveImage 6s ease;
+      
+      left: 85%;
+      
+  }
+
+.img-2 img {
+    width: 60px;
+    display: block;  
+    left: 45px;
+    position: absolute;
+  }
+
+  .img-2.move2 img{
+    animation: moveImage 5s ease;
+    left: 85%;
+  }
+.img-3 img {
+    width: 60px;
+    display: block;
+    left: 45px;
+    position: absolute;
+  }
+
+  .img-3.move3 img{
+    animation: moveImage 4s ease;
+      left: 85%;
+  }
+.img-4 img {
+    width: 60px;
+    display: block;
+    left: 45px;
+    position: absolute;
+  }
+
+  .img-4.move4 img{
+    animation: moveImage 4.5s ease;
+      left: 85%;
+  }
